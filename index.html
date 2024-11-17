@@ -24,6 +24,13 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        @media (max-width: 576px) {
+            .text-primary {
+                font-size: 16px; /* Adjust the font size as needed */
+            }
+        }
+        </style>
   </head>
 
 <body>
@@ -42,27 +49,18 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
                     <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Kingfisher Seafood Restaurant</h1>
-                    </a>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Service</a>
-                        <a href="menu.html" class="nav-item nav-link">Menu</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="booking.html" class="dropdown-item">Booking</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            </div>
-                        </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#menu" class="nav-item nav-link">Menu</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
+                    <a href="https://wa.me/94778710996" target="_blank" class="btn btn-primary py-2 px-4">Book A Table</a>
                 </div>
             </nav>
         
@@ -72,10 +70,10 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Indulge in Seafood Delights</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2">Experience the freshest seafood, expertly prepared and served with passion at Kingfisher Seafood Restaurant.</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                            <a href="https://wa.me/94778710996" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="img/hero.png" alt="">
+                            <img class="img-fluid" src="img/preview.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -108,7 +106,7 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-beach text-primary mb-4"></i> <h5>Oceanfront Dining</h5>
+                                <i class="fa fa-3x fa-tree text-primary mb-4"></i> <h5>Oceanfront Dining</h5>
                                 <div class="p">Enjoy breathtaking ocean views while indulging in a delicious meal on our outdoor terrace.</div>
                             </div>
                         </div>
@@ -128,22 +126,22 @@
 
 
         <!-- About Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="about">
             <div class="container">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/table2.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/table5.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/table7.jpg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/table3.jpg">
                             </div>
                         </div>
                     </div>
@@ -155,7 +153,7 @@
                         <div class="row g-4 mb-4">
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">7</h1>
                                     <div class="ps-4">
                                         <p class="mb-0">Years of</p>
                                         <h6 class="text-uppercase mb-0">Experience</h6>
@@ -164,15 +162,15 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">3</h1>
                                     <div class="ps-4">
-                                        <p class="mb-0">Popular</p>
-                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                                        <p class="mb-0">Master</p>
+                                        <h6 class="text-uppercase mb-0">Chefs</h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <!--a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a-->
                     </div>
                 </div>
             </div>
@@ -181,7 +179,7 @@
 
 
         <!-- Menu Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="menu">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
@@ -190,7 +188,7 @@
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-bs-toggle="pill" href="#tab-1">
                                 <i class="fa fa-fish fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Fresh Catch</small>
@@ -199,7 +197,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-bs-toggle="pill" href="#tab-2">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Local Favorites</small>
@@ -208,7 +206,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                 <i class="fa fa-cocktail fa-2x text-primary"></i>
                                 <div class="ps-3">
                                     <small class="text-body">Thirst Quenchers</small>
@@ -226,34 +224,34 @@
         <!-- Reservation Start -->
         <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-0">
-                <div class="col-md-6">
+                <!--div class="col-md-6">
                     <div class="video">
                         <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
                     </div>
-                </div>
+                </div-->
                 <div class="col-md-6 bg-dark d-flex align-items-center">
                     <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
                         <h5 class="section-title ff-secondary text-start text-primary fw-normal">Reservation</h5>
                         <h1 class="text-white mb-4">Book A Table Online</h1>
-                        <form>
+                        <form onsubmit="sendWhatsAppMessage(event)">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating date" id="date3" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
+                                        <input type="text" class="form-control datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" required />
                                         <label for="datetime">Date & Time</label>
                                     </div>
                                 </div>
@@ -265,7 +263,7 @@
                                           <option value="3">People 3</option>
                                         </select>
                                         <label for="select1">No Of People</label>
-                                      </div>
+                                    </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
@@ -278,6 +276,27 @@
                                 </div>
                             </div>
                         </form>
+                        
+                        <script>
+                        function sendWhatsAppMessage(event) {
+                            event.preventDefault(); // Prevent form submission
+                        
+                            // Collect form data
+                            const name = document.getElementById('name').value;
+                            const email = document.getElementById('email').value;
+                            const datetime = document.getElementById('datetime').value;
+                            const people = document.getElementById('select1').value;
+                            const message = document.getElementById('message').value;
+                        
+                            // Format the WhatsApp message
+                            const whatsappMessage = `Hello, We would like to make a reservation from the restaurant.\n\nName: ${name}\nEmail: ${email}\nDate & Time: ${datetime}\nNumber of People: ${people}\nSpecial Request: ${message}`;
+                        
+                            // Open WhatsApp with the message
+                            const whatsappURL = `https://wa.me/94778710996?text=${encodeURIComponent(whatsappMessage)}`;
+                            window.open(whatsappURL, '_blank');
+                        }
+                        </script>
+                        
                     </div>
                 </div>
             </div>
@@ -304,7 +323,7 @@
 
 
         <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
+        <!--div class="container-xxl pt-5 pb-3">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Culinary Team</h5>
@@ -327,7 +346,7 @@
                     </div>
                     </div>
             </div>
-        </div>
+        </div-->
         <!-- Team End -->
 
 
@@ -341,23 +360,23 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>"[Testimonial 1: A positive review about your restaurant's food, service, or ambiance.]"</p>
+                        <p>Shehan was such a welcoming host and couldn't do enough for us. He was very attentive. His cooking is exceptional. Definitely the best food we had during our stay in Sri Lanka. The setting is absolutely beautiful. So tranquil and close to the beach. You can hear the sounds of the waves and see some lovely local wild life.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">[Customer Name 1]</h5>
-                                <small>[Customer Occupation 1]</small>
+                                <h5 class="mb-1">Laura</h5>
+                                <small>Ireland</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p>"[Testimonial 2: Another positive review.]"</p>
+                        <p>We were given the best food on our trip, and we could try all the local fruit.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">[Customer Name 2]</h5>
-                                <small>[Customer Occupation 2]</small>
+                                <h5 class="mb-1">Michael</h5>
+                                <small>Switzerland</small>
                             </div>
                         </div>
                     </div>
@@ -368,7 +387,7 @@
         
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" id="contact">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -377,18 +396,18 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact Us</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kingfisher Beach Resort, Yala</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>[Your Phone Number]</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>[Your Email]</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kingfisher Seefood Restaurant, Yala</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+94778710996</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Shehanmadhuka94@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href="[Your Facebook]"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href="[Your Instagram]"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/p/Kingfisher-Beach-Resort-Yala-61551613704657"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/kingfisher.beach_resort_yala/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening Hours</h4>
                         <h5 class="text-light fw-normal">Daily</h5>
-                        <p>[Your Opening Hours]</p>
+                        <p>9 AM - 9 PM</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
@@ -403,7 +422,7 @@
                     <div class="copyright">
                         <div class="row">
                             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; [Current Year] Kingfisher Seafood Restaurant. All Rights Reserved.
+                                &copy; 2024 Kingfisher Seafood Restaurant. All Rights Reserved.
                             </div>
                             <div class="col-md-6 text-center text-md-end">
                                 <div class="footer-menu">
